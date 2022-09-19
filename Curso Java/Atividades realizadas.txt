@@ -1,0 +1,149 @@
+package cursojava;
+
+import java.util.Scanner;
+
+/* Escreva um Código que digite o numero de gols da rodada e que imprima o vencedor da partida e se foi o time mandande ou visitante */
+
+public class Atividade11 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		Scanner texto = new Scanner(System.in);
+		String time1 , time2, time3, time4, time5, time6 , time7, time8, time9, time10,
+		time11 , time12, time13, time14, time15, time16 , time17, time18, time19, time20;
+		double goltime1, goltime2,goltime3, goltime4, goltime5, goltime6, goltime7, goltime8, goltime9,goltime10,
+		goltime11, goltime12,goltime13, goltime14, goltime15, goltime16, goltime17, goltime18, goltime19,goltime20;
+		
+		System.out.println("Partida 1:");
+		System.out.print("Digite o nome do time da Casa: ");time1 = texto.nextLine();
+		System.out.print("Digite o nome do time visitante da partida: ");time2 = texto.nextLine();
+		System.out.print("Digite a quantidade de Gols do time da Casa: ");goltime1 = input.nextDouble();
+		System.out.print("Digite a quantidade de Gols do time visitante: ");goltime2 = input.nextDouble();
+		
+		System.out.println("Partida 2:");
+		System.out.print("Digite o nome do time da Casa: ");time3 = texto.nextLine();
+		System.out.print("Digite o nome do time visitante da partida: ");time4 = texto.nextLine();
+		System.out.print("Digite a quantidade de Gols do time da Casa: ");goltime3 = input.nextDouble();
+		System.out.print("Digite a quantidade de Gols do time visitante: ");goltime4 = input.nextDouble();
+		
+		System.out.println("Partida 3:");
+		System.out.print("Digite o nome do time da Casa: ");time5 = texto.nextLine();
+		System.out.print("Digite o nome do time visitante da partida: ");time6 = texto.nextLine();
+		System.out.print("Digite a quantidade de Gols do time da Casa: ");goltime5 = input.nextDouble();
+		System.out.print("Digite a quantidade de Gols do time visitante: ");goltime6 = input.nextDouble();
+		
+		System.out.println("Partida 4:");
+		System.out.print("Digite o nome do time da Casa: ");time7 = texto.nextLine();
+		System.out.print("Digite o nome do time visitante da partida: ");time8 = texto.nextLine();
+		System.out.print("Digite a quantidade de Gols do time da Casa: ");goltime7 = input.nextDouble();
+		System.out.print("Digite a quantidade de Gols do time visitante: ");goltime8 = input.nextDouble();
+		
+		System.out.println("Partida 5:");
+		System.out.print("Digite o nome do time da Casa: ");time9 = texto.nextLine();
+		System.out.print("Digite o nome do time visitante da partida: ");time10 = texto.nextLine();
+		System.out.print("Digite a quantidade de Gols do time da Casa: ");goltime9 = input.nextDouble();
+		System.out.print("Digite a quantidade de Gols do time visitante: ");goltime10 = input.nextDouble();
+		
+		System.out.println("Partida 6:");
+		System.out.print("Digite o nome do time da Casa: ");time11 = texto.nextLine();
+		System.out.print("Digite o nome do time visitante da partida: ");time12 = texto.nextLine();
+		System.out.print("Digite a quantidade de Gols do time da Casa: ");goltime11 = input.nextDouble();
+		System.out.print("Digite a quantidade de Gols do time visitante: ");goltime12 = input.nextDouble();
+		
+		System.out.println("Partida 7:");
+		System.out.print("Digite o nome do time da Casa: ");time13 = texto.nextLine();
+		System.out.print("Digite o nome do time visitante da partida: ");time14 = texto.nextLine();
+		System.out.print("Digite a quantidade de Gols do time da Casa: ");goltime13 = input.nextDouble();
+		System.out.print("Digite a quantidade de Gols do time visitante: ");goltime14 = input.nextDouble();
+		
+		System.out.println("Partida 8:");
+		System.out.print("Digite o nome do time da Casa: ");time15 = texto.nextLine();
+		System.out.print("Digite o nome do time visitante da partida: ");time16 = texto.nextLine();
+		System.out.print("Digite a quantidade de Gols do time da Casa: ");goltime15 = input.nextDouble();
+		System.out.print("Digite a quantidade de Gols do time visitante: ");goltime16 = input.nextDouble();
+		
+		System.out.println("Partida 9");
+		System.out.print("Digite o nome do time da Casa: ");time17 = texto.nextLine();
+		System.out.print("Digite o nome do time visitante da partida: ");time18 = texto.nextLine();
+		System.out.print("Digite a quantidade de Gols do time da Casa: ");goltime17 = input.nextDouble();
+		System.out.print("Digite a quantidade de Gols do time visitante: ");goltime18 = input.nextDouble();
+		
+		System.out.println("Partida 10:");
+		System.out.print("Digite o nome do time da Casa: ");time19 = texto.nextLine();
+		System.out.print("Digite o nome do time visitante da partida: ");time20 = texto.nextLine();
+		System.out.print("Digite a quantidade de Gols do time da Casa: ");goltime19 = input.nextDouble();
+		System.out.print("Digite a quantidade de Gols do time visitante: ");goltime20 = input.nextDouble();
+		
+		System.out.println("_______________________________________");
+		
+		System.out.print("Resultado da Partida 1: ");
+		System.out.println(time1 + " : " + goltime1 + " x " + goltime2 + " : " + time2);
+		
+		if (goltime1 > goltime2) {System.out.println(" Time Da Casa Vencedor");}
+		else if (goltime1 < goltime2) {System.out.println(" Time Visitante Vencedor");}
+		else if(goltime1 == goltime2) {System.out.println(" A Partida Terminou Empatada");}
+					
+		System.out.print("Resultado da Partida 2: ");
+		System.out.println(time3 + " : " + goltime3 + " x " + goltime4 + " : " + time4);
+		
+		if (goltime3 > goltime4) {System.out.println(" Time Da Casa Vencedor");}
+		else if (goltime3 < goltime4) {System.out.println(" Time Visitante Vencedor");}
+		else if(goltime3 == goltime4) {System.out.println(" A Partida Terminou Empatada");}
+				
+		System.out.print("Resultado da Partida 3: ");
+		System.out.println(time5 + " : " + goltime5 + " x " + goltime6 + " : " + time6);
+		
+		if (goltime5 > goltime6) {System.out.println(" Time Da Casa Vencedor");}
+		else if (goltime5 < goltime6) {System.out.println(" Time Visitante Vencedor");}
+		else if(goltime5 == goltime6) {System.out.println(" A Partida Terminou Empatada");}
+					
+		System.out.print("Resultado da Partida 4: ");
+		System.out.println(time7 + " : " + goltime7 + " x " + goltime8 + " : " + time8);
+		
+		if (goltime7 > goltime8) {System.out.println(" Time Da Casa Vencedor");}
+		else if (goltime7 < goltime8) {System.out.println(" Time Visitante Vencedor");}
+		else if(goltime7 == goltime8) {System.out.println(" A Partida Terminou Empatada");}
+				
+		System.out.print("Resultado da Partida 5: ");
+		System.out.println(time9 + " : " + goltime9 + " x " + goltime10 + " : " + time10);
+		
+		if (goltime9 > goltime10) {System.out.println(" Time Da Casa Vencedor");}
+		else if (goltime9 < goltime10) {System.out.println(" Time Visitante Vencedor");}
+		else if(goltime9 == goltime10) {System.out.println(" A Partida Terminou Empatada");}
+				
+		System.out.print("Resultado da Partida 6: ");
+		System.out.println(time11 + " : " + goltime11 + " x " + goltime12 + " : " + time12);
+		
+		if (goltime11 > goltime12) {System.out.println(" Time Da Casa Vencedor");}
+		else if (goltime11 < goltime12) {System.out.println(" Time Visitante Vencedor");}
+		else if(goltime11 == goltime12) {System.out.println(" A Partida Terminou Empatada");}
+				
+		System.out.print("Resultado da Partida 7: ");
+		System.out.println(time13 + " : " + goltime13 + " x " + goltime14 + " : " + time14);
+		
+		if (goltime13 > goltime14) {System.out.println(" Time Da Casa Vencedor");}
+		else if (goltime13 < goltime14) {System.out.println(" Time Visitante Vencedor");}
+		else if(goltime13 == goltime14) {System.out.println(" A Partida Terminou Empatada");}
+				
+		System.out.print("Resultado da Partida 8: ");
+		System.out.println(time15 + " : " + goltime15 + " x " + goltime16 + " : " + time16);
+		
+		if (goltime15 > goltime16) {System.out.println(" Time Da Casa Vencedor");}
+		else if (goltime15 < goltime16) {System.out.println(" Time Visitante Vencedor");}
+		else if(goltime15 == goltime16) {System.out.println(" A Partida Terminou Empatada");
+				
+		System.out.print("Resultado da Partida 9: ");
+		System.out.println(time17 + " : " + goltime17 + " x " + goltime18 + " : " + time18);
+		
+		if (goltime17 > goltime18) {System.out.println(" Time Da Casa Vencedor");}
+		else if (goltime17 < goltime18) {System.out.println(" Time Visitante Vencedor");}
+		else if(goltime17 == goltime18) {System.out.println(" A Partida Terminou Empatada");}
+		
+		System.out.print("Resultado da Partida 10: ");
+		System.out.println(time19 + " : " + goltime19 + " x " + goltime20 + " : " + time20);
+		
+		if (goltime19 > goltime20) {System.out.println(" Time Da Casa Vencedor");}
+		else if (goltime19 < goltime20) {System.out.println(" Time Visitante Vencedor");}
+		else if(goltime19 == goltime20) {System.out.println(" A Partida Terminou Empatada");}
+			
+		}}}
